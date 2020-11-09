@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Zaid Kindman</title>
-  </head>
-  <body>
-    <h1>Hello world</h1>
-  </body>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+  footer
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+
+img{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.footer-height
+{
+    padding-bottom: 3rem;
+}
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1 class="display-4">Zaid Kindman</h1>
+  <p>Programmer & Learner</p>
+</div>
+
+<div class="container about footer-height">
+    <p class="lead">Experinced more than <b>3 years</b> in Web & Desktop Development.</p>
+    <p class="display-4">Specialized in:</p><br>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Web Development</h4>
+            <ul class="lead">
+                <li><b>Front-End:</b>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS
+                            <ul>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </li>
+                        <li>JavaScript
+                            <ul>
+                                <li>JQuery</li>
+                                <li>React.js</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Back-End:</b>
+                    <ul>
+                        <li>PHP
+                            <ul>
+                                <li>CodeIgniter</li>
+                            </ul>
+                        </li>
+                        <li>Node.js</li>
+                        <li>MySQL</li>
+                        <li>Microsoft SQL Server</li>
+                        <li>SQLite</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h4>Desktop Development</h4>
+            <ul class="lead">
+                <li><b>Windows Form Application</b>
+                    <ul>
+                        <li>C#</li>
+                    </ul>
+                </li>
+                <li><b>Console Application</b>
+                    <ul>
+                        <li>C#</li>
+                        <li>C++</li>
+                        <li>Matlab</li>
+                        <li>Python</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container footer-height">
+    <div class="row">
+        <div class="col text-center"><a href="https://github.com/zaid1997" target="_blank"><img height="100px" width="100px" src="assets/icons/github.ico" alt=""></a></div>
+        <div class="col text-center"><a href="https://www.facebook.com/ZaidKindman/" target="_blank"><img height="100px" width="100px" src="assets/icons/facebook.ico" alt=""></a></div>
+        <div class="col text-center"><a href="https://twitter.com/ZaidKindman" target="_blank"><img height="100px" width="100px" src="assets/icons/twitter.ico" alt=""></a></div>
+        <div class="col text-center"><a href="https://www.instagram.com/zaidkindman/" target="_blank"><img height="100px" width="100px" src="assets/icons/instagram.ico" alt=""></a></div>
+    </div>
+</div>
+
+
+<footer class="footer mt-auto py-3">
+        <div class="container">
+          <span>&copy; <b>Kindman 2020</b></span>
+        </div>
+    </footer>
+
+</body>
 </html>
